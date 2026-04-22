@@ -1,0 +1,4 @@
+pip install -r requirements.txt
+python cfg_builder.py
+coverage run --branch -m pytest test_auth.py -v
+coverage report -m
